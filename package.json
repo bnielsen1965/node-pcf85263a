@@ -1,0 +1,28 @@
+{
+  "name": "pcf85263a",
+  "version": "1.0.0",
+  "description": "Library for NXP PCF85263A Real-Time Clock.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnielsen1965/node-pcf85263a.git"
+  },
+  "keywords": [
+    "pcf85263a",
+    "real time clock",
+    "rtc",
+    "i2c",
+    "raspberry",
+    "pi",
+    "library",
+    "nxp"
+  ],
+  "author": "Bryan Nielsen <bnielsen1965@gmail.com> (https://github.com/bnielsen1965)",
+  "license": "MIT",
+  "dependencies": {
+    "i2c-bus": "^4.0.8"
+  }
+}
